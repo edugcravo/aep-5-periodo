@@ -1,0 +1,101 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../../../assets/imagens/fundo_login.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.bloco_login{
+    border: 1px solid gray;
+    box-shadow: 3px 3px gray;  
+    border-radius: 15px;  
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 47%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+.bloco_login h1{
+    font-family: arial;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+.username, .senha{
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    width: 77%;
+    align-items: center;
+}
+
+.username p, .senha p{
+    font-size: 20px;
+    font-family: arial;
+}
+
+.username input, .senha input{
+    height: 20px;
+    margin-left: 5px;
+    border: 1px solid #8a8383;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.username input{
+    background-image: url(../../../assets/imagens/user.png);
+  background-size: cover;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 5px;
+}
+
+.senha input{
+    background-image: url(../../../assets/imagens/cadeado.png);
+  background-size: cover;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 5px;
+}
+
+.entrar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.entrar button {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    border-width: 1px;
+}
+
+.entrar img{
+    margin-right: 5px;
+}
+
+.intranet{
+    margin-top: 20px;
+}
+
+.intranet img{
+    margin-right: 5px;
+    width: 20px;
+}
+
+.intranet p{
+    margin: 0;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
